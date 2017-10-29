@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    background-color: grey;
+    margin: 0 45px;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    background-image: url(../images/backgroundWave.jpg);
+}
+
+a{
+    color: #333;
+}
+
+.mainContent{
+    position: relative;
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+
+
+header{
+    position: relative;
+    width: inherit;
+    height: 245px;
+    background-color: #eaeaea;
+    background-image: url(../images/SanCarlos.jpg);
+    background-repeat: no-repeat;
+}
+
+header div{
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    background-color: rgba(255,255,255,0.3);
+    left: 25px;
+}
+
+header div h1{
+    position: relative;
+    display: block;
+    height: 100px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+
+section{
+    position: relative;
+    display: block;
+    width: 610px;
+    float: left;
+    padding-left: 20px;
+    margin-bottom: 200px;
+}
+
+section>h2{
+    color: #25565e;
+}
+
+.subTitleColor h2{
+    color: #25565e;
+}
+
+
+
+.cardBig{
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #e9eeef;
+    overflow: hidden;
+}
+
+.card-header,.cardBigHeader{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.cardHeader h3, .cardHeader p, .cardBigHeader h3,.cardBigHeader p{
+    margin: 0;
+}
+
+.cardBigHeader h3{
+    color: #25565e;
+}
+
+.card-header,.cardBig .cardBigHeader{
+    margin-bottom: 5px;
+}
+
+.cardBigImage,.cardBigInfo{
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.cardBigImage{
+    width: 240px;
+    padding-left: 15px;
+}
+
+
+.cardBigInfo{
+    width: 325px;
+    padding-left: 10px;
+}
+
+.cardBigInfo p{
+    margin: 0;
+}
+
+.cardBigInfo ul{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+
+.cardBigPrecio{
+    color: #25565e;
+}
+
+.cardBigPrecio p{
+    font-size: 14px;
+}
+
+.a-info{
+    padding-left: 17px;
+    background-image: url(../images/moreInfo.gif);
+    background-repeat: no-repeat;
+}
+
+
+.card{
+    position: relative;
+    display: inline-block;
+    background-color: #e9eeef;
+    overflow: hidden;
+    width: 200px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.cardHeader{
+    color: #25565e;
+}
+
+.cardHeader p{
+    font-size: 12px;
+}
+
+.precio p, .precio a{
+color: #25565e;
+}
+
+
+
+aside{
+    position: relative;
+    display: block;
+    width: 270px;
+    height: 360px;
+    float: left;
+    background-image: url(../images/backgroundSearch.png);
+    background-repeat: no-repeat;
+    bottom: 100px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+
+aside>p{
+    font-weight: bold;
+}
+
+aside form , aside> p{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #25565e;
+}
+
+aside form p{
+    margin-bottom: 5px;
+}
+
+aside form select:nth-child(2){
+    width: 100%;
+}
+
+aside form select:nth-child(7){
+    width: 100%;
+}
+
+aside form button{
+    display: block;
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: #25565e;
+    color: #fff;
+    border: none;
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
+}
+
+aside .contact{
+    position: relative;
+    display: block;
+    margin-top: 30px;
+}
+
+aside .contact>p{
+    color: #25565e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.contact .phone{
+    margin-bottom: 20px;
+}
+.contact .phone p{
+    margin:0;
+    margin-left: 40px;
+}
+
+.contact .phone::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/phone3.png);
+    background-repeat: no-repeat;
+}
+
+.contact .email a{
+    margin:0;
+    margin-left: 40px;
+}
+
+.contact .email{
+    position: relative;
+}
+
+.contact .email::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/mail2.png);
+    background-repeat: no-repeat;
+    bottom: -4px;
+}
+
+footer{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 56px;
+}
+
+footer::after{
+    content: "";
+    position: absolute;
+    height: 56px;
+    width: 143px;
+    background-image: url(../images/logoFooter.png);
+    background-repeat: no-repeat;
+    right: 20px;
+    bottom: 10px;
+}
+
+
+/* tools */
+
+.listReset{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
